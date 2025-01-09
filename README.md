@@ -1,6 +1,7 @@
 # TOP_Weather_App
 This project is part of The Odin Project's JavaScript Course. The objective is to build a weather forecast site that allows users to search for a specific location and view the weather information.
 # Live Link
+https://kloxer.github.io/TOP_Weather_App/
 
 # Features
 Location Search: Users can input a city name to retrieve current weather data.
