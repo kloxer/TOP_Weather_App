@@ -72,29 +72,38 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(59, 59, 59);
+  background-color: #f9f6e6;
   height: 100vh;
 }
 
 form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  gap: 14px;
 }
 
 input {
   flex-grow: 0;
 }
 
+#search {
+  border-radius: 5px;
+}
+
 #result {
-  margin-top: auto;
+  margin-top: 60px;
   margin-bottom: auto;
 }
 .card {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #bad8b6;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(42, 42, 42);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 10px 10px;
   width: 300px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 20px;
 }
 
