@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -72,8 +75,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f9f6e6;
+  background-color: #EEEEEE;
   height: 100vh;
+  font-family: Roboto, Arial;
 }
 
 form {
@@ -81,6 +85,7 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 14px;
+  background-color: rebeccapurple;
 }
 
 input {
@@ -89,22 +94,24 @@ input {
 
 #search {
   border-radius: 5px;
+  border-style: none;
 }
 
 #result {
   margin-top: 60px;
   margin-bottom: auto;
 }
-.card {
-  background-color: #bad8b6;
+.card, form {
+  background-color: #8E1616;
   border-style: solid;
-  border-width: 3px;
-  border-color: rgb(42, 42, 42);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-width: 2px;
+  border-color: #3D3D3D;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
   padding: 10px 10px;
   width: 300px;
-  color: rgb(0, 0, 0);
+  color: #EEEEEE;
   border-radius: 20px;
+  margin-top: 15px;
 }
 
 h3 {
@@ -131,4 +138,14 @@ img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+button{
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  border-style: none;
+  border-radius: 10px;
+  padding:5px 30px;
+  font-size: 15px;
+  
 }

@@ -16,7 +16,7 @@ const result = document.getElementById("result");
 button.addEventListener("click", async () => {
   res = await getInfo(searchInput.value);
   if (res == "0") {
-    result.textContent = "0";
+    result.textContent = "Invalid search";
   } else {
     currWeather = new Weather(res);
     localStorage.setItem("weather", JSON.stringify(currWeather));
